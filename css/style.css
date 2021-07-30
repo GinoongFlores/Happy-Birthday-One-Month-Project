@@ -114,3 +114,27 @@ aside {
 footer h2 {
   text-shadow: 2px 2px #fff;
 }
+
+/* media queries */
+
+@media screen and (max-width: 630px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero-img img {
+    border-radius: 0;
+  }
+
+  aside.right,
+  aside.left {
+    text-align: center;
+    float: inherit;
+  }
+
+  section.contact {
+    text-align: center;
+  }
+}
